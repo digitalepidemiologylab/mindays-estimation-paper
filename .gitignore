@@ -1,0 +1,11 @@
+mindays_estimation_v1.ipynb
+.DS_Store
+
+data/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints
