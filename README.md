@@ -7,7 +7,7 @@ Python 3.12 with standard scientific computing libraries (pandas, numpy, scipy, 
 
 ## Repository Structure
 - **Analysis Notebooks**
-  - `preprocessing.ipynb`: Initial data cleaning and preparation
+  - `preprocessing.ipynb`: Initial data cleaning and preparation. Also contains the code for the descriptive analysis.
   - `LMM_method.ipynb`: Linear Mixed Model analysis (LMM). Models to analyze day-of-week effects on nutrient intake, accounting for demographic factors (age, BMI, gender). Generates heatmaps showing significant variations in intake patterns across weekdays.
   - `CV_method.ipynb`: Coefficient of Variation method (CV). Applies the Variance Ratio method to determine minimum days needed for reliable dietary assessment. Calculates within-person and between-person variations for different nutrients and reliability thresholds.
   - `ICC_method.ipynb`: Intraclass Correlation Coefficient analysis (ICC). To assess measurement reliability across multiple days (described as ICC Method 1 in the paper).
